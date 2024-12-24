@@ -1,0 +1,4 @@
+web: env RUBY_DEBUG_OPEN=true bin/rails server
+js: esbuild app/javascript/application.js --bundle --outdir=public/assets --watch
+css: bun run watch:css
+
